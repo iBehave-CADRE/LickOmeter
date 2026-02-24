@@ -6,7 +6,10 @@ This is a guide to build your own motorized lickometer based on the arduino capa
 Requirements:
 Basic Arduino Skills - link to arduino introduction here
 
-![Rotary_Action](/images/Rotary_Action.gif)
+![Rotary_Action](/Images/Rotary_Action.gif)
+
+
+test
 
 ---
 
