@@ -7,7 +7,12 @@ Requirements:
 Basic Arduino Skills - link to arduino introduction here
 
 ![Rotary_Action](/Images/Rotary_Action.gif)
+![Rotary_Action](/Images/Rotary_Action.png)
 
+![Linear_Action](/Images/Linear_Action.png)
+**Figure 1:** Linear actuator adapted from OHRBETS repository. Lickspout (grey) holder was redesigned to fit a delta maze.
+
+https://github.com/agordonfennell/OHRBETS
 
 test
 
