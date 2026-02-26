@@ -82,5 +82,3 @@ void ServoMotorInOut() {
     InputChange == false; //Reset Change Detection to no change detected
   }
 }
-
-

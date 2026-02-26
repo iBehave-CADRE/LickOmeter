@@ -6,13 +6,37 @@ This is a guide to build your own motorized lickometer based on the arduino capa
 Requirements:
 Basic Arduino Skills - link to arduino introduction here
 
-![Rotary_Action](/Images/Rotary_Action.gif)
-![Rotary_Action](/Images/Rotary_Action.png)
 
-![Linear_Action](/Images/Linear_Action.png)
-**Figure 1:** Linear actuator adapted from OHRBETS repository. Lickspout (grey) holder was redesigned to fit a delta maze.
+## Motorization of Lickspout
 
-https://github.com/agordonfennell/OHRBETS
+
+<p align="center">
+  <img src="./Images/Rotary_Action.gif" height="250">
+  <img src="./Images/Rotary_Action.png" height="250">
+</p>
+
+**Figure 1:** Rotary actuator to hide and show the lickspout to headfixed specimens in a behavior experiment for neuroscience research.
+
+
+<p align="center">
+  <img src="./Images/Linear_Action.gif" height="200">
+  <img src="./Images/Linear_Action.png" height="200">
+</p>
+
+**Figure 2:** Linear actuator adapted from [OHRBETS Repository](https://github.com/agordonfennell/OHRBETS) with modified Lickspout holder for [Hugo Basile Delta Maze](https://ugobasile.com/products/categories/mazes-tracking/delta-maze). Modified holder is available [here](/Manufacturing_Files/Linear_Action/).
+
+
+
+
+## Electronics
+
+![Schematic of LickOmeter](/Images/schematic.png)
+
+Lickspout (grey) holder was redesigned to fit a delta maze.
+
+
+
+
 
 test
 
@@ -115,7 +139,11 @@ Via digital analog signals or via serial communication
 
 
 
-![Schematic of LickOmeter](/Images/schematic.png)
+Modified Version of the Following Sources:
+Device: https://scanbox.org/2016/04/14/a-simple-lick-o-meter-and-liquid-reward-delivery-system/
+(The code of the Manual above did not work)
+Code: https://playground.arduino.cc/Main/CapacitiveSensor/
+
 
 
 
