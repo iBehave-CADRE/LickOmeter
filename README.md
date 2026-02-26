@@ -1,31 +1,45 @@
 # LickOmeter
 
-This is a guide to build your own motorized lickometer based on the arduino capacitive sensor library.
+This is a guide to build your own motorized LickOmeter based on the arduino capacitive sensor library. Measuring the capacity allows detection of individual licks and therefore direct reward acceptance in the context of many different behavioral research experiments. The repository provides all necessary information to reproduce this device and coding exercises for the general understanding of the resulting data.
 
+---
 
-Requirements:
-Basic Arduino Skills - link to arduino introduction here
+## System Integration
 
+The device modular integration in existing experimental instruments using 5V Digital/Analog TTL signaling via coaxial BNC cables (e.g. with NI-DAQ, cDAQ or dSpace Microlabox) or using Serial Communication via a USB cable (e.g. Python, MATLAB, Bonsai). For the future, integration in the bPod system is planned.
 
+The current firmware allows to control the position of the lickspout with a 5V Digital via a coaxial BNC cable (0V):
 
+0V (LOW) -> Lickspout OUT  
+5V (HIGH) -> Lickspout IN
 
-## Motorization of Lickspout
+Coupling the Lick-OUT signal with a syringe pump, peristaltic pump or solenoid valve allows controlled application of reward.
+
+Modification of this firmware would also allow to control the lickspout with Serial Communication via USB.
+
+---
+
+## Lickspout Motorization
+
+Currently, two actuators are implemented for custom use cases. The rotary actuator directly couples servo motor rotation to the lickspout, while the linear actuator transforms servo motor rotation via a gear-rack system to linear motion.
+
+### Rotary Actuator
 
 <p align="center">
   <img src="./Images/Rotary_Action.gif" height="250">
   <img src="./Images/Rotary_Action.png" height="250">
 </p>
 
-**Figure 1:** Rotary actuator to hide and show the lickspout to headfixed specimens in a behavior experiment for neuroscience research.
+**Figure 1:** Rotary actuator can show or hide the lickspot to a specimen in a headfixed experimental setup with for example imaging of neuronal activity in behavioral research.
 
+### Linear Actuator
 
 <p align="center">
-  <img src="./Images/Linear_Action.gif" height="200">
-  <img src="./Images/Linear_Action.png" height="200">
+  <img src="./Images/Linear_Action.gif" height="175">
+  <img src="./Images/Linear_Action.png" height="175">
 </p>
 
 **Figure 2:** Linear actuator adapted from [OHRBETS Repository](https://github.com/agordonfennell/OHRBETS) with modified Lickspout holder for [Hugo Basile Delta Maze](https://ugobasile.com/products/categories/mazes-tracking/delta-maze). Modified holder is available [here](/Manufacturing_Files/Linear_Action/).
-
 
 ---
 
@@ -39,13 +53,11 @@ Lickspout (grey) holder was redesigned to fit a delta maze.
 
 [Capacitive Sensor Exercises](./Capacitive_Sensor_Exercises) (Adding a threshold for touch induced triggering)
 
-
-
 ---
 
-Bill of materials:
+## Bill of Materials:
 
-For Prototyping:
+### For Prototyping and Exercises:
 
 |Item|description|amount|link|
 |---|---|---|---|
@@ -53,23 +65,25 @@ For Prototyping:
 |LED||||
 
 
-For a closed and independently powered Box:
+### For Enclosure with Power Supply:
 
 |Item|description|amount|link|
 |---|---|---|---|
 |Electronics Box|||[Link](https://www.conrad.de/de/p/donau-elektronik-kgb15-523132-universal-gehaeuse-135-x-95-x-45-polystyrol-eps-grau-1-st-523132.html?insert=VQ)|
 
-For linear action:
+### For Rotary Actuator:
+
+|Item|description|amount|link|
+|---|---|---|---|
+|Servo MG995 |||[Link](https://www.conrad.de/de/p/whadda-wpm600-entwicklungsboard-1-st-2481919.html?insert=VQ#productDownloads)|
+
+### For Linear Actuator:
 
 |Item|description|amount|link|
 |---|---|---|---|
 |||||
 
-For rotary action:
 
-|Item|description|amount|link|
-|---|---|---|---|
-|Servo MG995 |||[Link](https://www.conrad.de/de/p/whadda-wpm600-entwicklungsboard-1-st-2481919.html?insert=VQ#productDownloads)|
 
 ---
 
@@ -89,8 +103,11 @@ power barrel plug block
 box parts
 box
 
+Requirements:
+Basic Arduino Skills - link to arduino introduction here
 
 fuse and fuse holder
+
 
 
 switch
@@ -136,59 +153,40 @@ Including examples to learn how the capacitive sensor works and how the data can
 
 Modular integration into established behavioral experiments and microscopy setups.
 
-Via digital analog signals or via serial communication
 
+## Possible Future Updates
 
+Following ideas are planned to be implemented in the future:
 
-Modified Version of the Following Sources:
-Device: https://scanbox.org/2016/04/14/a-simple-lick-o-meter-and-liquid-reward-delivery-system/
-(The code of the Manual above did not work)
-Code: https://playground.arduino.cc/Main/CapacitiveSensor/
+- Compatibility with [Sanworks bPod](https://sanworks.io) system
+- Servo control via Serial Communication
+- Custom PCB Design
 
+## Links and Resources
 
+- The linear actuator was modified from the [OHRBETS](https://github.com/agordonfennell/OHRBETS) repository.
 
+- The designed was inspired by this a [blog post](https://scanbox.org/2016/04/14/a-simple-lick-o-meter-and-liquid-reward-delivery-system/) of Dario Ringach, PhD at UCLA ([Ringach Lab](http://ringachlab.net)).
 
-Modified the Linear actuator from here:
+- There is official documentation of the [Arduino Capacitive Sensor Library](https://playground.arduino.cc/Main/CapacitiveSensor/) and a [GitHub Repository](https://github.com/PaulStoffregen/CapacitiveSensor) of the maintainer Paul Stoffregen.
 
-https://github.com/agordonfennell/OHRBETS
+- There is official documentation of the [Arduino Servo Library](https://www.arduino.cc/reference/en/libraries/servo/) and an [Arduino Libraries GitHub Repository](https://github.com/arduino-libraries/Servo).
 
+- There is official documentation of the [attachedInterrupt function](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/ ).
 
-Links to necessary resources and libraries:
+---
 
-The current design was modified from the following source:
-
-- https://scanbox.org/2016/04/14/a-simple-lick-o-meter-and-liquid-reward-delivery-system/
-
-
-Capacitive sensor library main source (GitHub):
-
-- https://github.com/PaulStoffregen/CapacitiveSensor
-
-Capacitive sensor library examples:
-
-- https://playground.arduino.cc/Main/CapacitiveSensor/
-
-
-Servo library:
-
-- https://www.arduino.cc/reference/en/libraries/servo/
-
-Servo Library original source (GitHub):
-
-- https://github.com/arduino-libraries/Servo
-
-Documentation of attached interrupt:
-
-- https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/
-
+## References
 
 References Grü Kra Beck etc.
 
+iBehave Network
 
 Example for implementation Bela Repositories
 https://github.com/BelaErlinghagen/Multiport_Lickport
 
 https://github.com/BelaErlinghagen/MultiportArena
 
-Contact here 
-We provide workshops
+## Contact
+
+We provide workshops and are happy if others want to contribute
