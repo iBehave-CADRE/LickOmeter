@@ -7,8 +7,9 @@ Requirements:
 Basic Arduino Skills - link to arduino introduction here
 
 
-## Motorization of Lickspout
 
+
+## Motorization of Lickspout
 
 <p align="center">
   <img src="./Images/Rotary_Action.gif" height="250">
@@ -26,7 +27,7 @@ Basic Arduino Skills - link to arduino introduction here
 **Figure 2:** Linear actuator adapted from [OHRBETS Repository](https://github.com/agordonfennell/OHRBETS) with modified Lickspout holder for [Hugo Basile Delta Maze](https://ugobasile.com/products/categories/mazes-tracking/delta-maze). Modified holder is available [here](/Manufacturing_Files/Linear_Action/).
 
 
-
+---
 
 ## Electronics
 
@@ -34,11 +35,11 @@ Basic Arduino Skills - link to arduino introduction here
 
 Lickspout (grey) holder was redesigned to fit a delta maze.
 
+### Capacitive Sensor Exercises
+
+[Capacitive Sensor Exercises](./Capacitive_Sensor_Exercises) (Adding a threshold for touch induced triggering)
 
 
-
-
-test
 
 ---
 
