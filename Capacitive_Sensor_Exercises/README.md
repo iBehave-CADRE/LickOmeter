@@ -1,4 +1,8 @@
-# Capacitive Sensor Exercises
+# Capacitive Sensor Exercises Overview
+
+These provided exercises are a preparation for building the Lickometer with capacitive touch sensing and motorized lickspout.
+
+
 
 
 Today we will build a capacitive touch sensor. The sensor will be combined with a servo motor to control the positioning in perspective of an imaginary animal. When the antenna of the sensor is soldered to a cannula, it can be perfectly used for touch/lick detection and direct reward delivery via the extended sensor (would require loop triggering of a solenoid valve or syringe pump via a DAQ or similar).
@@ -10,10 +14,10 @@ Combining a capacitive sensor and the control of a servo motor can be a difficul
 Together, we will go through 5 increasingly complex coding blocks and circuit diagrams:
 
 - 01_CapacitiveSensor_SerialCom (Printing arbitrary values reflecting capacitance via serial communication)
-- 02_CapacitiveSensor_Thresh (Adding a threshold for touch induced triggering)
-- 03_CapacitiveSensor_ThreshTTL (touch will blink an LED or send a TTL signal to a DAQ)
-- 04_CapacitiveSensor_ThreshTTL_attachInterrupt (Attaching an interrupt to a pin to control servo motor motion via BNC)
-- 05_CapacitiveSensor_ThreshTTL_attachInterrupt_ServoControl (Turing the servo and sensor into position for an animal)
+- [02_CapacitiveSensor_Thresh](./01_CapacitiveSensor_SerialCom/README.md) (Adding a threshold for touch induced triggering)
+- [03_CapacitiveSensor_ThreshTTL](./02_CapacitiveSensor_Thresh/README.md) (touch will blink an LED or send a TTL signal to a DAQ)
+- [04_CapacitiveSensor_ThreshTTL_attachInterrupt](./04_CapacitiveSensor_ThreshTTL_attachInterrupt/README.md) (Attaching an interrupt to a pin to control servo motor motion via BNC)
+- [05_CapacitiveSensor_ThreshTTL_attachInterrupt_ServoControl](05_CapacitiveSensor_ThreshTTL_attachInterrupt_ServoControl/README.md) (Turing the servo and sensor into position for an animal)
 
 You are free to try your own version of code first. But be reassured that there is a working version of code ready if you get stuck somewhere.
 
