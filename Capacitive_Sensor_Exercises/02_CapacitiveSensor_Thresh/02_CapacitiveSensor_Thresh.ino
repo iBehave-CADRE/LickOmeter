@@ -16,7 +16,6 @@ unsigned long csSum; // This variable will store accumulated capacitive sensor v
 
 void setup() {
     Serial.begin(9600); // Begin serial communication
-    pinMode(12, OUTPUT); //LED (to signal touches) is on pin 12 
 }
 
 void loop() {

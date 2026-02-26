@@ -56,7 +56,7 @@ void CapacitiveSensorRead() {
 
 void BlinkLEDandTTLout() {
       digitalWrite(12, HIGH);  //  if a lick is detected, turn LED ON.
-      delay(1);
+      delay(1000);
       digitalWrite(12, LOW);  //  turn the LED OFF.
   }
 

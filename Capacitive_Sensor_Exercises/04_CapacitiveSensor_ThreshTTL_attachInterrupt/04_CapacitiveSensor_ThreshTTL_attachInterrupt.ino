@@ -42,7 +42,7 @@ void CapacitiveSensorRead() {
 
 void BlinkLEDandTTLout() {
       digitalWrite(12, HIGH);  //  if a lick is detected, turn LED ON.
-      delay(1);
+      delay(1000);
       digitalWrite(12, LOW);  //  turn the LED OFF.
 }
 
@@ -52,7 +52,7 @@ void DetectInputChange() {
 
 void PrintInputChange() {
   if (InputChange == true) {
-    Serial.println("Change Detected");
+    //Serial.println("Change Detected");
     InputState = digitalRead(3); // Detect to which state it hast changed...high or low
     if (InputState == HIGH) { // If the state is high rotate the servo to the in position
     Serial.println("pin HIGH");
