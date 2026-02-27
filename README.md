@@ -45,7 +45,7 @@ Currently, two actuators are implemented for custom use cases. The rotary actuat
 
 ## Electronics
 
-
+![Schematic of LickOmeter](/Images/schematic.png)
 
 **Figure X:**
 
