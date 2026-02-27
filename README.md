@@ -47,6 +47,8 @@ Currently, two actuators are implemented for custom use cases. The rotary actuat
 
 ![Schematic of LickOmeter](/Images/schematic.png)
 
+**Figure X:**
+
 Lickspout (grey) holder was redesigned to fit a delta maze.
 
 ### Capacitive Sensor Exercises
