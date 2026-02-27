@@ -180,8 +180,6 @@ Following ideas are planned to be implemented in the future:
 
 ## References
 
-References Grü Kra Beck etc.
-
 iBehave Network
 
 Example for implementation Bela Repositories
