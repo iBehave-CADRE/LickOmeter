@@ -98,36 +98,12 @@ The listed parts are required additionally to the above listed items.
 |BNC Connector for Panel Mounting|||[Link](https://www.conrad.de/de/p/tru-components-tc-9962736-bnc-steckverbinder-buchse-einbau-vertikal-50-1-st-2490684.html?insert=BP)|
 |Fuse Holder for Panel Mounting|||[Link](https://www.conrad.de/de/p/tru-components-tc-r3-12-sicherungshalter-passend-fuer-sicherungen-feinsicherung-5-x-20-mm-10-a-250-v-ac-1-st-1587496.html?insert=BP)|
 |Fuse 2 A|||[Link](https://www.conrad.de/de/p/eska-522-720-522720-feinsicherung-o-x-l-5-mm-x-20-mm-2-a-250-v-traege-t-inhalt-10-st-523987.html?insert=BP)|
-|On/Off Switch for Panel Mount|||[Link](https://www.conrad.de/de/p/tru-components-700185-wippschalter-r13-112a-b-b-0-i-250-v-ac-6-a-1-x-aus-ein-rastend-1-st-1565955.html?insert=BP)|
-
-
-
-||||[Link]()|
-||||[Link]()|
-||||[Link]()|
-||||[Link]()|
-||||[Link]()|
-
-barrel plug
-
-https://www.conrad.de/de/p/tru-components-niedervolt-steckverbinder-buchse-einbau-vertikal-5-8-mm-2-1-mm-1-st-1567097.html?insert=BP
-
-internal barrel plug
-
-https://www.conrad.de/de/p/tru-components-dc14-m-niedervolt-steckverbinder-stecker-gerade-5-5-mm-2-1-mm-1-st-1570700.html?insert=BP
-
-USB Plug
-
-https://www.conrad.de/de/p/reversible-usb-durchfuehrung-2-0-buchse-einbau-neu-durchfuehrung-nausb-w-neutrik-inhalt-1-st-746647.html?insert=BP
-
-Internal usb Cable
-
-https://www.conrad.de/de/p/lindy-usb-kabel-usb-2-0-usb-a-stecker-usb-b-stecker-0-20-m-schwarz-grau-36670-2534819.html?insert=BP
-
-Red Back Wire for Power supply 5 m
-
-https://www.conrad.de/de/p/donau-elektronik-225-01-litze-2-x-0-25-mm-rot-schwarz-5-m-2446427.html?insert=BP
-
+|On/Off Switch for Panel Mounting|||[Link](https://www.conrad.de/de/p/tru-components-700185-wippschalter-r13-112a-b-b-0-i-250-v-ac-6-a-1-x-aus-ein-rastend-1-st-1565955.html?insert=BP)|
+|Barrel Plug 12V 2.1 mm for Panel Mount |||[Link](https://www.conrad.de/de/p/tru-components-niedervolt-steckverbinder-buchse-einbau-vertikal-5-8-mm-2-1-mm-1-st-1567097.html?insert=BP)|
+|Barrel Plug 12V 2.1 mm for Internal Connection|||[Link](https://www.conrad.de/de/p/tru-components-dc14-m-niedervolt-steckverbinder-stecker-gerade-5-5-mm-2-1-mm-1-st-1570700.html?insert=BP)|
+|USB-B to USB-A Connector for Panel Mounting|||[Link](https://www.conrad.de/de/p/reversible-usb-durchfuehrung-2-0-buchse-einbau-neu-durchfuehrung-nausb-w-neutrik-inhalt-1-st-746647.html?insert=BP)|
+|USB-B Cable for Internal Connection|||[Link](https://www.conrad.de/de/p/lindy-usb-kabel-usb-2-0-usb-a-stecker-usb-b-stecker-0-20-m-schwarz-grau-36670-2534819.html?insert=BP)|
+|Red and Black Wire for Power Cabling 0.75 mm2 |||[Link](https://www.conrad.de/de/p/donau-elektronik-275-01-25-litze-liy-z-2-x-0-75-mm-rot-schwarz-1-st-3594132.html?insert=BP)|
 
 **Note:** Access to a soldering station, lighter, hand drill and basic tools is required for assembly.
 
