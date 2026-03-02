@@ -48,13 +48,6 @@ Currently, two actuators are implemented for custom use cases. The rotary actuat
 ## Electronics
 
 
-<<<<<<< HEAD
-=======
-
-**Figure X:**
->>>>>>> 06b47946d534e2dd679b4bf161c5efe9c3442559
-
-Lickspout (grey) holder was redesigned to fit a delta maze.
 
 Electronics can be further improved if necessary:
 
@@ -231,17 +224,6 @@ Following ideas are planned to be implemented in the future:
 ---
 
 ## References
-
-<<<<<<< HEAD
-
-=======
-iBehave Network
-
-Example for implementation Bela Repositories
-https://github.com/BelaErlinghagen/Multiport_Lickport
-
-https://github.com/BelaErlinghagen/MultiportArena
->>>>>>> 06b47946d534e2dd679b4bf161c5efe9c3442559
 
 ## Contact
 
