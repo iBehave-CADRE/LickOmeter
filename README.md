@@ -211,4 +211,4 @@ Development of this project was part of and funded by the [iBehave Network](http
 
 ## Contact
 
-We provide workshops and are happy if others want to contribute
+This GitHub Repository is created ad maintained by Dr. Benjamin Escribano @ The CADRE - Collaborative Accelerator for Development and Research Engineering ([contact](https://ibehave.nrw/ibots-platform/CADRE/)).
