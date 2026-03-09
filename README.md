@@ -66,21 +66,21 @@ Oscilloscope and or Pulse Generator (BIT-boy) should be available for debugging.
 
 ### For Prototyping and Exercises:
 
-|Item|Description|Amount|Link|
-|---|---|---|---|
-|Breadboard| ||[Link](https://www.conrad.de/de/p/tru-components-steckplatine-bus-stripe-ausklappbar-polzahl-gesamt-400-l-x-b-82-5-cm-x-54-6-mm-1-st-2885952.html?insert=VQ)|
-|Project Holder|||[Link](https://whadda.com/product/project-holder-for-arduino-uno-development-board-with-breadboard-wpa508/)|
-|Jumper Wires|||[Link](https://www.conrad.de/de/p/tru-components-jumper-kabel-arduino-1x-drahtbruecken-buchse-1x-drahtbruecken-buchse-bunt-2481791.html?insert=VQ)|
-|Arduino Uno Rev3|||[Link](https://store.arduino.cc/products/arduino-uno-rev3)|
-|BNC to Screw Clamp|||[Link](https://www.conrad.de/de/p/tru-components-lt-bnc-f-bnc-steckverbinder-buchse-gerade-50-1-st-1570975.html?insert=VQ)|
-|Blunt Stainless Steel Syringe Neegle Gauge 18 (Sigma-Aldrich Z113042-1EA) |||[Link](https://www.sigmaaldrich.com/DE/de/product/aldrich/z113042)|
-|Coaxial BNC Cable 50 Ohm Impedance|||[Link](https://www.conrad.de/de/p/tru-components-16-0330-bnc-messleitung-1-00-m-schwarz-2108306.html?insert=VQ)|
-|Red LED 5mm Diameter|||[Link](https://www.conrad.de/de/p/tru-components-1573739-led-bedrahtet-rot-rund-5-mm-130-mcd-50-20-ma-2-1-v-1573739.html?insert=VQ)|
-|Servo Motor MG995|||[Link](https://www.conrad.de/de/p/whadda-wpm603-entwicklungsboard-1-st-2481920.html?insert=VQ)|
-|Male Pin Header|||[Link](https://www.conrad.de/de/p/tru-components-tc-9556692-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-1-st-2389173.html?insert=VQ)|
-|Alligator Clip to Jumper Wire|||[Link](https://www.adafruit.com/product/4304)|
-|Resistor Kit (1x 10 MOhm for Sensor (can be 100 kOhm to 50 MOhm) 1x 220 Ohm for LED)|||[Link](https://www.conrad.de/de/p/tru-components-418706-kohleschicht-widerstand-sortiment-axial-bedrahtet-5-390-teile-1564789.html?insert=VQ)|
-|USB-A to USB-B Cable 0.5 m|||[Link](https://www.conrad.de/de/p/renkforce-usb-kabel-usb-2-0-usb-a-stecker-usb-b-stecker-0-50-m-schwarz-vergoldete-steckkontakte-rf-4463067-1487689.html?insert=BP)|
+|Item|Amount|Link|
+|---|---|---|
+|Breadboard|1|[Link](https://www.conrad.de/de/p/tru-components-steckplatine-bus-stripe-ausklappbar-polzahl-gesamt-400-l-x-b-82-5-cm-x-54-6-mm-1-st-2885952.html?insert=VQ)|
+|Project Holder|1|[Link](https://whadda.com/product/project-holder-for-arduino-uno-development-board-with-breadboard-wpa508/)|
+|Jumper Wires Kit|1|[Link](https://www.conrad.de/de/p/tru-components-jumper-kabel-arduino-1x-drahtbruecken-buchse-1x-drahtbruecken-buchse-bunt-2481791.html?insert=VQ)|
+|Arduino Uno Rev3|1|[Link](https://store.arduino.cc/products/arduino-uno-rev3)|
+|BNC to Screw Clamp|2|[Link](https://www.conrad.de/de/p/tru-components-lt-bnc-f-bnc-steckverbinder-buchse-gerade-50-1-st-1570975.html?insert=VQ)|
+|Blunt Stainless Steel Syringe Neegle Gauge 18 (Sigma-Aldrich Z113042-1EA) |1|[Link](https://www.sigmaaldrich.com/DE/de/product/aldrich/z113042)|
+|Coaxial BNC Cable 50 Ohm Impedance|2|[Link](https://www.conrad.de/de/p/tru-components-16-0330-bnc-messleitung-1-00-m-schwarz-2108306.html?insert=VQ)|
+|Red LED 5mm Diameter|1|[Link](https://www.conrad.de/de/p/tru-components-1573739-led-bedrahtet-rot-rund-5-mm-130-mcd-50-20-ma-2-1-v-1573739.html?insert=VQ)|
+|Servo Motor MG995|1|[Link](https://www.conrad.de/de/p/whadda-wpm603-entwicklungsboard-1-st-2481920.html?insert=VQ)|
+|Male Pin Header|3|[Link](https://www.conrad.de/de/p/tru-components-tc-9556692-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-1-st-2389173.html?insert=VQ)|
+|Alligator Clip to Jumper Wire (can also be self made)|1|[Link](https://www.adafruit.com/product/4304)|
+|Resistor Kit (1x 10 MOhm for Sensor (can be 100 kOhm to 50 MOhm) 1x 220 Ohm for LED)|1|[Link](https://www.conrad.de/de/p/tru-components-418706-kohleschicht-widerstand-sortiment-axial-bedrahtet-5-390-teile-1564789.html?insert=VQ)|
+|USB-A to USB-B Cable 0.5 m|1|[Link](https://www.conrad.de/de/p/renkforce-usb-kabel-usb-2-0-usb-a-stecker-usb-b-stecker-0-50-m-schwarz-vergoldete-steckkontakte-rf-4463067-1487689.html?insert=BP)|
 
 **Tip:** Many of those parts are also available in the [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language).
 
@@ -88,58 +88,60 @@ Oscilloscope and or Pulse Generator (BIT-boy) should be available for debugging.
 
 The listed parts are required additionally to the above listed items.
 
-|Item|description|amount|link|
-|---|---|---|---|
-|Electronics Box|||[Link](https://www.conrad.de/de/p/donau-elektronik-kgb15-523132-universal-gehaeuse-135-x-95-x-45-polystyrol-eps-grau-1-st-523132.html?insert=VQ)|
-|12V Power Supply|||[Link](https://www.conrad.de/de/p/voltcraft-sng-12-1500-ow-n-steckernetzteil-festspannung-12-v-dc-1-5-a-18-w-offene-kabelenden-2264179.html?insert=VQ)|
-|Heat-Shrink Tubing Assortment|||[Link](https://www.conrad.de/de/p/delock-20735-schrumpfschlauchsortiment-schwarz-1-st-3382844.html?insert=BP)|
-|Flexible Jumper Wires|||[Link](https://www.conrad.de/de/p/renkforce-jkmf403-jumper-kabel-arduino-banana-pi-raspberry-pi-40x-drahtbruecken-stecker-40x-drahtbruecken-buchse-30-2299844.html?insert=BP)|
-|LED Holder|||[Link](https://www.conrad.de/de/p/tru-components-tc-pcl-5a203-polyamid-6-6-passend-fuer-leds-led-5-mm-snapin-1593487.html?insert=BP)|
-|BNC Connector for Panel Mounting|||[Link](https://www.conrad.de/de/p/tru-components-tc-9962736-bnc-steckverbinder-buchse-einbau-vertikal-50-1-st-2490684.html?insert=BP)|
-|Fuse Holder for Panel Mounting|||[Link](https://www.conrad.de/de/p/tru-components-tc-r3-12-sicherungshalter-passend-fuer-sicherungen-feinsicherung-5-x-20-mm-10-a-250-v-ac-1-st-1587496.html?insert=BP)|
-|Fuse 2 A|||[Link](https://www.conrad.de/de/p/eska-522-720-522720-feinsicherung-o-x-l-5-mm-x-20-mm-2-a-250-v-traege-t-inhalt-10-st-523987.html?insert=BP)|
-|On/Off Switch for Panel Mounting|||[Link](https://www.conrad.de/de/p/tru-components-700185-wippschalter-r13-112a-b-b-0-i-250-v-ac-6-a-1-x-aus-ein-rastend-1-st-1565955.html?insert=BP)|
-|Barrel Plug 12V 2.1 mm for Panel Mount |||[Link](https://www.conrad.de/de/p/tru-components-niedervolt-steckverbinder-buchse-einbau-vertikal-5-8-mm-2-1-mm-1-st-1567097.html?insert=BP)|
-|Barrel Plug 12V 2.1 mm for Internal Connection|||[Link](https://www.conrad.de/de/p/tru-components-dc14-m-niedervolt-steckverbinder-stecker-gerade-5-5-mm-2-1-mm-1-st-1570700.html?insert=BP)|
-|USB-B to USB-A Connector for Panel Mounting|||[Link](https://www.conrad.de/de/p/reversible-usb-durchfuehrung-2-0-buchse-einbau-neu-durchfuehrung-nausb-w-neutrik-inhalt-1-st-746647.html?insert=BP)|
-|USB-B Cable for Internal Connection|||[Link](https://www.conrad.de/de/p/lindy-usb-kabel-usb-2-0-usb-a-stecker-usb-b-stecker-0-20-m-schwarz-grau-36670-2534819.html?insert=BP)|
-|Red and Black Wire for Power Cabling 0.75 mm2 |||[Link](https://www.conrad.de/de/p/donau-elektronik-275-01-25-litze-liy-z-2-x-0-75-mm-rot-schwarz-1-st-3594132.html?insert=BP)|
+|Item|Amount|Link|
+|---|---|---|
+|Electronics Box|1|[Link](https://www.conrad.de/de/p/donau-elektronik-kgb15-523132-universal-gehaeuse-135-x-95-x-45-polystyrol-eps-grau-1-st-523132.html?insert=VQ)|
+|12V Power Supply|1|[Link](https://www.conrad.de/de/p/voltcraft-sng-12-1500-ow-n-steckernetzteil-festspannung-12-v-dc-1-5-a-18-w-offene-kabelenden-2264179.html?insert=VQ)|
+|Heat-Shrink Tubing Assortment|1|[Link](https://www.conrad.de/de/p/delock-20735-schrumpfschlauchsortiment-schwarz-1-st-3382844.html?insert=BP)|
+|Flexible Jumper Wires|1|[Link](https://www.conrad.de/de/p/renkforce-jkmf403-jumper-kabel-arduino-banana-pi-raspberry-pi-40x-drahtbruecken-stecker-40x-drahtbruecken-buchse-30-2299844.html?insert=BP)|
+|LED Holder|1|[Link](https://www.conrad.de/de/p/tru-components-tc-pcl-5a203-polyamid-6-6-passend-fuer-leds-led-5-mm-snapin-1593487.html?insert=BP)|
+|BNC Connector for Panel Mounting|2|[Link](https://www.conrad.de/de/p/tru-components-tc-9962736-bnc-steckverbinder-buchse-einbau-vertikal-50-1-st-2490684.html?insert=BP)|
+|Fuse Holder for Panel Mounting|1|[Link](https://www.conrad.de/de/p/tru-components-tc-r3-12-sicherungshalter-passend-fuer-sicherungen-feinsicherung-5-x-20-mm-10-a-250-v-ac-1-st-1587496.html?insert=BP)|
+|Fuse 2 Amp|1|[Link](https://www.conrad.de/de/p/eska-522-720-522720-feinsicherung-o-x-l-5-mm-x-20-mm-2-a-250-v-traege-t-inhalt-10-st-523987.html?insert=BP)|
+|On/Off Switch for Panel Mounting|1|[Link](https://www.conrad.de/de/p/tru-components-700185-wippschalter-r13-112a-b-b-0-i-250-v-ac-6-a-1-x-aus-ein-rastend-1-st-1565955.html?insert=BP)|
+|Barrel Plug 12V 2.1 mm for Panel Mount |1|[Link](https://www.conrad.de/de/p/tru-components-niedervolt-steckverbinder-buchse-einbau-vertikal-5-8-mm-2-1-mm-1-st-1567097.html?insert=BP)|
+|Barrel Plug 12V 2.1 mm for Internal Connection|1|[Link](https://www.conrad.de/de/p/tru-components-dc14-m-niedervolt-steckverbinder-stecker-gerade-5-5-mm-2-1-mm-1-st-1570700.html?insert=BP)|
+|USB-B to USB-A Connector for Panel Mounting|1|[Link](https://www.conrad.de/de/p/reversible-usb-durchfuehrung-2-0-buchse-einbau-neu-durchfuehrung-nausb-w-neutrik-inhalt-1-st-746647.html?insert=BP)|
+|USB-B Cable for Internal Connection|1|[Link](https://www.conrad.de/de/p/lindy-usb-kabel-usb-2-0-usb-a-stecker-usb-b-stecker-0-20-m-schwarz-grau-36670-2534819.html?insert=BP)|
+|Red and Black Wire for Power Cabling 0.75 mm2 |1|[Link](https://www.conrad.de/de/p/donau-elektronik-275-01-25-litze-liy-z-2-x-0-75-mm-rot-schwarz-1-st-3594132.html?insert=BP)|
 
 **Note:** Access to a soldering station, lighter, hand drill and basic tools is required for assembly.
 
 ### For Rotary Actuator:
 
-|Item|description|amount|link|
-|---|---|---|---|
-|Servo MG995|||[Link](https://www.conrad.de/de/p/whadda-wpm603-entwicklungsboard-1-st-2481920.html?insert=VQ)|
-|Custom Servo Holder|||[Link](/Manufacturing_Files/Rotary_Action/Lickspout_Holder.stl)|
-|Custom Lickspout Holder|||[Link](/Manufacturing_Files/Rotary_Action/Servo_Holder.stl)|
-|Custom Knurled Head Screw|||[Link](/Manufacturing_Files/Rotary_Action/M3_Knurled_Head_Screw.stl)|
-|Pedestal Post Holder 54.7 mm|||[Link](https://www.thorlabs.com/item/PH50E_M)|
-|Right-Angle Clamp for 1/2" Posts|||[Link](https://www.thorlabs.com/item/RA90_M)|
-|Optical Post 40 mm Length|||[Link](https://www.thorlabs.com/item/TR40_M)|
-|Optical Post 150 mm Length|||[Link](https://www.thorlabs.com/item/TR150_M)|
+|Item|Amount|Link|
+|---|---|---|
+|Servo MG995|1|[Link](https://www.conrad.de/de/p/whadda-wpm603-entwicklungsboard-1-st-2481920.html?insert=VQ)|
+|Custom 3D-Printed Servo Holder|1|[Link](/Manufacturing_Files/Rotary_Action/Lickspout_Holder.stl)|
+|Custom 3D-Printed Lickspout Holder|1|[Link](/Manufacturing_Files/Rotary_Action/Servo_Holder.stl)|
+|Custom 3D-Printed Knurled Head Screw|1|[Link](/Manufacturing_Files/Rotary_Action/M3_Knurled_Head_Screw.stl)|
+|ThorLabs Pedestal Post Holder 54.7 mm|1|[Link](https://www.thorlabs.com/item/PH50E_M)|
+|ThorLabs Right-Angle Clamp for 1/2" Posts|1|[Link](https://www.thorlabs.com/item/RA90_M)|
+|ThorLabs Optical Post 40 mm Length|1|[Link](https://www.thorlabs.com/item/TR40_M)|
+|ThorLabs Optical Post 150 mm Length|1|[Link](https://www.thorlabs.com/item/TR150_M)|
+|Screws, Nuts and Bolts Collection |1||
 
 ### For Linear Actuator:
 
-|Item|description|amount|link|
-|---|---|---|---|
-|Servo 180 degrees|||[Link](https://whadda.com/product/mini-analog-servo-9-g-wpm600/)|
-|Custom Lickspout Holder|||[Link](/Manufacturing_Files/Linear_Action/Lickspout_Holder.step)|
-|Custom Knurled Head Screw|||[Link](/Manufacturing_Files/Rotary_Action/M3_Knurled_Head_Screw.stl)|
-|Linear Actuator|||[Link](https://github.com/agordonfennell/OHRBETS)|
+|Item|Amount|Link|
+|---|---|---|
+|Servo Motor 180° Rotation|1|[Link](https://whadda.com/product/mini-analog-servo-9-g-wpm600/)|
+|Custom 3D-Printed Lickspout Holder|1|[Link](/Manufacturing_Files/Linear_Action/Lickspout_Holder.step)|
+|Custom 3D-Printed Knurled Head Screw|1|[Link](/Manufacturing_Files/Rotary_Action/M3_Knurled_Head_Screw.stl)|
+|Linear Actuator|1|[Link](https://github.com/agordonfennell/OHRBETS)|
 
+**Note:** 3D-printed parts can be printed in PLA with standard print settings on any consumer grade 3D-printer like a [Bambu Lab A1 mini](https://bambulab.com/de-de/a1-mini) for example.
 
 ### For Reward Delivery with Syringe Pump:
 
-|Item|description|amount|link|
-|---|---|---|---|
-|WPI Syringe Pump AL-1000|||[Link](https://www.wpi-europe.com/products/pumps--microinjection/laboratory-syringe-pumps/al-1000.aspx)|
-|Syringe all glass fortuna optima luer-lock-tip (Sigma-Aldrich, Z31456-1EA, Lot 20228270)|||[Link](https://www.sigmaaldrich.com/DE/de/search/z314536-1ea?focus=products&page=1&perpage=30&sort=relevance&term=z314536-1ea&type=product)|
-|Serial d-Sub RS-232 extension cable for custom BNC connector and triggering|||[Link](https://www.conrad.de/de/p/renkforce-seriell-verlaengerungskabel-1x-d-sub-stecker-9pol-1x-d-sub-buchse-9pol-2-00-m-beige-1371918.html?insert=BP&searchType=SearchRedirect)|
-|BNC to Screw Clamp|||[Link](https://www.conrad.de/de/p/tru-components-lt-bnc-f-bnc-steckverbinder-buchse-gerade-50-1-st-1570975.html?insert=VQ)|
-|Luer-to-Tubing Coupler Assortment Kit|||[Link](https://wpiinc.com/products/504954-luer-to-tubing-coupler-assortment-kit-polypropylene?_pos=2&_sid=afe142875&_ss=r)|
-|PVC Tubing with Luer Ends Masterflex|||[Link](https://www.fishersci.de/shop/products/fitting-ends-pvc-tubing/11702663#?keyword=tube%20luer)|
+|Item|Amount|Link|
+|---|---|---|
+|WPI Syringe Pump AL-1000|1|[Link](https://www.wpi-europe.com/products/pumps--microinjection/laboratory-syringe-pumps/al-1000.aspx)|
+|Syringe all glass fortuna optima luer-lock-tip (Sigma-Aldrich, Z31456-1EA, Lot 20228270)|1|[Link](https://www.sigmaaldrich.com/DE/de/search/z314536-1ea?focus=products&page=1&perpage=30&sort=relevance&term=z314536-1ea&type=product)|
+|Serial d-Sub RS-232 extension cable for custom BNC connector and triggering|1|[Link](https://www.conrad.de/de/p/renkforce-seriell-verlaengerungskabel-1x-d-sub-stecker-9pol-1x-d-sub-buchse-9pol-2-00-m-beige-1371918.html?insert=BP&searchType=SearchRedirect)|
+|BNC to Screw Clamp|2|[Link](https://www.conrad.de/de/p/tru-components-lt-bnc-f-bnc-steckverbinder-buchse-gerade-50-1-st-1570975.html?insert=VQ)|
+|Luer-to-Tubing Coupler Assortment Kit|1|[Link](https://wpiinc.com/products/504954-luer-to-tubing-coupler-assortment-kit-polypropylene?_pos=2&_sid=afe142875&_ss=r)|
+|PVC Tubing with Luer Ends Masterflex|1|[Link](https://www.fishersci.de/shop/products/fitting-ends-pvc-tubing/11702663#?keyword=tube%20luer)|
 
 #### Custom Made Serial RS-232 to BNC Cable Pin Assignment for Syringe Pump:
 
