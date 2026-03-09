@@ -1,7 +1,5 @@
 # Arduino Language Reference - LickOmeter Project
 
-
-
 ### `#include <Arduino.h>`
 **Purpose:** Includes the Arduino functions for controlling the device. Must be included at the beginning of the script to use related functions.
 
@@ -31,7 +29,6 @@ void loop() {
     // Code runs repeatedly
 }
 ```
-
 ---
 
 ### Constructor: `CapacitiveSensor(sendPin, receivePin)`
@@ -139,7 +136,6 @@ if (sensorValue > 10) {
     Serial.println(sensorValue);  // Outputs "250" to serial monitor
 }
 ```
-
 ---
 
 ## Control Flow & Timing
@@ -236,32 +232,3 @@ void setup() { }  // Returns nothing
 ```cpp
 int sensorSamples = 80;
 ```
-
----
-
-## Quick Reference Table
-
-| Function | Purpose | Location | Key Parameters |
-|----------|---------|----------|-----------------|
-| `setup()` | Initialize | Called once at startup | None |
-| `loop()` | Main logic | Called repeatedly | None |
-| `Serial.begin()` | Start serial | In setup() | baud rate (9600) |
-| `Serial.println()` | Print to monitor | In loop() | value to print |
-| `capacitiveSensor()` | Read sensor | In loop() | samples (30-100) |
-| `delay()` | Pause | Anywhere | milliseconds |
-
-
-
-
-Code	Description
-void setup(){}	The function that is run once automatically when the device starts.
-void loop(){}	The function that is run constantly automaticaly for the rest of time
-#include <Arduino.h>	Includes the Arduino functions for controlling the device.
-#include <CapacitiveSensor.h>	Includes the functions for caqpacitive sensor.
-delay(500)	Pause the program for 500 milliseconds.
-pinMode(1, OUTPUT)	Initializes pin number 1 in "output" mode (to control something outside)
-pinMode(1, INPUT)	Initializes pin number 1 in "output" mode (to sense something outside)
-digitalWrite(1, HIGH)	Sets digital output pin 1 to HIGH (as opposed to LOW)
-CapacitiveSensor(Pin1, Pin2)	Create an object for a capacitive sensor unit
-Serial.begin(9600)	Start serial communication and set baud rate
-Serial.println("string")	Print via serial communication in new line

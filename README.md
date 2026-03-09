@@ -1,6 +1,6 @@
 # LickOmeter
 
-This is a guide to build your own motorized LickOmeter based on the arduino capacitive sensor library. Measuring the capacity allows detection of individual licks and therefore direct reward acceptance in the context of many different behavioral research experiments. The repository provides all necessary information to reproduce this device and coding exercises for the general understanding of the resulting data.
+This is a guide to build your own motorized LickOmeter based on the arduino capacitive sensor library. Measuring the capacity allows detection of individual licks and therefore direct reward acceptance in the context of many different behavioral research experiments. The final product, can run individually as an embedded system and allows integration with other devices for behavioral research. The repository provides all necessary information to reproduce this device and coding exercises for the general understanding of the resulting data.
 
 Only basic Arduino skills like connecting and uploading code are required for this tutorial.
 
@@ -56,7 +56,23 @@ Adding small capacitor (20 - 400 pF) in parallel with the body capacitance, is h
 
 ### Capacitive Sensor Exercises
 
-[Capacitive Sensor Exercises](./Capacitive_Sensor_Exercises) (Adding a threshold for touch induced triggering)
+The following exercises are designed for gaining a profound understanding of how the capacitive sensor actually measures capacitance, how applying and adjusting a threshold allows to filter licking events, how events can be forwarded to synchronization instruments and how motorization can be integrated in one embedded system. For simplicity, a [language reference guide](./Capacitive_Sensor_Exercises/LANGUAGE_REFERENCE.md) with explanation of all used functions is readily provided.
+
+In a first exercise, serial communication between the Arduino and a computer is used to illustrate how the Arduino measures capacitance as an arbitrary value:
+
+- [01_CapacitiveSensor_SerialCom](./01_CapacitiveSensor_SerialCom/README.md)
+- [02_CapacitiveSensor_Thresh](./02_CapacitiveSensor_Thresh/README.md)
+
+The next exercise will illustrate, how a 0-5V digital output pin can drive an LED or generate a TTL signal via coaxial BNC cables for communication with a vast number of devices for data acquisition (e.g. NI-DAQ, MicrolaBox etc.). This allows to integrate the device either via serial communication or digital/analog signals to avoid integration hell.
+
+- [03_CapacitiveSensor_ThreshTTL](./03_CapacitiveSensor_ThreshTTL/README.md)
+
+Combining the capacitive sensor and the control of a servo motor can be a difficult task, due to running computational tasks in parallel. Luckily, Arduino provides a solution. The hardware interrupt facilitates parallel computing. The last two exercises will teach how to implement this function for creating a reliable machine with dual function:
+
+- [04_CapacitiveSensor_ThreshTTL_attachInterrupt](./04_CapacitiveSensor_ThreshTTL_attachInterrupt/README.md)
+- [05_CapacitiveSensor_ThreshTTL_attachInterrupt_ServoControl](05_CapacitiveSensor_ThreshTTL_attachInterrupt_ServoControl/README.md)
+
+Completion of all five exercises will result in the full replication of the Arduino Firmware. If necessary it can also be downloaded [here](./Firmware/LickOmeter/LickOmeter.ino).
 
 ---
 
