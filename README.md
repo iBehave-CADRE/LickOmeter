@@ -47,7 +47,7 @@ Currently, two actuators are implemented for custom use cases. The rotary actuat
 
 ## Electronics
 
-
+![Schematic of LickOmeter](/Images/schematic.png)
 
 Electronics can be further improved if necessary:
 
@@ -200,6 +200,14 @@ Following ideas are planned to be implemented in the future:
 ---
 
 ## References
+
+Development of this project was part of and funded by the [iBehave Network](https://ibehave.nrw). Following laboratories are currently working with the LichOmeter:
+
+- Laboratory of Dr. Sabine Krabbe ([DZNE](https://www.dzne.de/forschung/forschungsbereiche/grundlagenforschung/forschungsgruppen/krabbe/forschungsschwerpunkte/) in Bonn, Germany): Dr. Benjamin Escribano developed the rotary actuator version for a head-fixed intra-vital 2P-Microscopy behavioral experiment.
+
+- Laboratory of Prof. Jan Gründemann ([DZNE](https://www.dzne.de/forschung/forschungsbereiche/grundlagenforschung/forschungsgruppen/gruendemann/forschungsschwerpunkte) in Bonn, Germany): Eva Sebastian developed the linear actuator version for the [Hugo Basile Delta Maze](https://ugobasile.com/products/categories/mazes-tracking/delta-maze).
+
+- Laboratory of Prof. Heinz Beck ([IEECR](https://ieecr-bonn.de), in Bonn, Germany): Bela Erlinghagen further developed the [Multiport Arena](https://github.com/BelaErlinghagen/MultiportArena) with the [Multiport Lickport](https://github.com/BelaErlinghagen/Multiport_Lickport). Josephine Timm further developed a version with randomized food application after a defined running period in the head-fixed [Treadwall](https://github.com/0815Phine/Treadwall) system with intra-vital 2P-Microscopy.
 
 ## Contact
 
