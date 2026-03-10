@@ -47,12 +47,30 @@ Currently, two actuators are implemented for custom use cases. The rotary actuat
 
 ## Electronics
 
-![Schematic of LickOmeter](/Images/schematic.png)
+In the [Arduino Capacitive Sensor Library](https://playground.arduino.cc/Main/CapacitiveSensor/), the working principle is explained as follows:
 
-Electronics can be further improved if necessary:
+>"The capacitiveSensor method toggles a microcontroller send pin to a new state and then waits for the receive pin to change to the same state as the send pin. A variable is incremented inside a while loop to time the receive pin's state change. The method then reports the variable's value, which is in arbitrary units."
 
-Research has shown that a small capacitor (100 pF) or so from sensor pin to ground improves stability and repeatability.
-Adding small capacitor (20 - 400 pF) in parallel with the body capacitance, is highly desirable too, as it stabilizes the sensed readings.
+>"The physical setup includes a medium to high value (100 kilohm - 50 megohm) resistor between the send pin and the receive (sensor) pin. The receive pin is the sensor terminal. A wire connected to this pin with a piece of foil at the end makes a good sensor. For many applications, a more useful range of values is obtained if the sensor is covered with paper, plastic, or another insulating material, so that users do not actually touch the metal foil. Research has shown that a small capacitor (100 pF) or so from sensor pin to ground improves stability and repeatability."
+
+>"When the send pin changes state, it will eventually change the state of the receive pin. The delay between the send pin changing and the receive pin changing is determined by an RC time constant, defined by R * C, where R is the value of the resistor and C is the capacitance at the receive pin, plus any other capacitance (e.g. human body interaction) present at the sensor (receive) pin. Adding small capacitor (20 - 400 pF) in parallel with the body capacitance, is highly desirable too, as it stabilizes the sensed readings."
+
+For data logging and lick visualization a LED and coaxial BNC connector is connected to a digital port and defined as an output with TTL trigger in the code.
+
+For integrated lickspout motorization, an additional coaxial BNC connector is connected to a digital port with [attachInterrupt() function](https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/). This allows to detect incoming TTL pulses to remote triggering motor movement. The connected can be any 180° servo motor.
+
+
+![Schematic of LickOmeter](/Images/Electronics_Overview.png)
+
+**Figure 3:** Electronics overview of LickOmeter prototype assembly with respective pin assignment.
+
+
+The CapacitiveSensor Library suggests circuit improvements by adding a capacitor at specific nodes to increase the stability of measured values:
+
+>"Research has shown that a small capacitor (100 pF) or so from sensor pin to ground improves stability and repeatability."
+
+
+>"Adding small capacitor (20 - 400 pF) in parallel with the body capacitance, is highly desirable too, as it stabilizes the sensed readings."
 
 ### Capacitive Sensor Exercises
 
